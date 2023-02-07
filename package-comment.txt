@@ -1,0 +1,24 @@
+"devDependencies": {
+    "@types/node": "^17.0.21",            // чтобы конфиг webpack был в формате ts, т.е. чтобы можно было модули импортировать через import, а не через require
+    "@types/react": "^17.0.39",             // react
+    "@types/react-dom": "^17.0.11",       // react
+    "@types/webpack": "^5.28.0",          // чтобы конфиг webpack был в формате ts, т.е. чтобы можно было модули импортировать через import, а не через require
+    "@types/webpack-dev-server": "^4.7.2", // дев сервер
+    "html-webpack-plugin": "^5.5.0",        // плагин html для webpack
+    "ts-loader": "^9.2.6",                // чтобы webpack обрабатывал файлы ts
+    "ts-node": "^10.5.0",                 // чтобы конфиг webpack был в формате ts, т.е. чтобы можно было модули импортировать через import, а не через require
+    "typescript": "^4.5.5",               // тайпскрипт
+    "webpack": "^5.69.1",                 // сам вэбпак
+    "webpack-cli": "^4.9.2",              // сам вэбпак
+    "webpack-dev-server": "^4.7.4",         // дев сервер
+    "mini-css-extract-plugin": "^2.7.2",        // чтобы для css создавался свой файл иначе стили будут в js бандле
+    "css-loader": "^6.6.0",                  // чтобы обрабатывать стили
+    "sass": "^1.49.9",                     // чтобы обрабатывать стили
+    "sass-loader": "^12.6.0",                // чтобы обрабатывать стили
+    "style-loader": "^3.3.1",                    // чтобы обрабатывать стили
+  },
+    "dependencies": {
+    "react": "^17.0.2",                               // typescript для реакт
+    "react-dom": "^17.0.2"                               // typescript для реакт
+  }
+
