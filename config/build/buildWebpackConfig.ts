@@ -20,7 +20,7 @@ export default function buildWebpackConfig(options: BuildOptions): webpack.Confi
     module: {
       rules: buildLoaders(options),
     },
-    resolve: buildResolvers(),
+    resolve: buildResolvers(options),
     devtool: isDev ? 'inline-source-map' : undefined, //чтобы в случае ошибки можно было отследить в каком файле она произошла
     devServer: isDev ? buildDevServer(options) : undefined,
   };

@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import ThemeContextProvider from './theme/ThemeProvider';
-import App from './App';
+import App from './app/App';
+import { ThemeProvider } from './app/providers/ThemeProvider';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ThemeContextProvider>
+      <ThemeProvider>
         <App />
-      </ThemeContextProvider>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
